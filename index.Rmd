@@ -2,18 +2,22 @@
 title: "Sharps and Squares"
 subtitle: "Sports Betting 101"
 author: "Cory Waters"
-date: "`r Sys.Date()`"
+event: "Palm Beach Data Science"
+date: "2019-03-21"
 output:
   xaringan::moon_reader:
-    css: [default, 'csw_css.css', 'csw_fonts.css']
+    css: [default, 'css/csw_css.css', 'css/csw_fonts.css']
     lib_dir: libs
     nature:
       highlightStyle: github
+      highlightLanguage: ["r", "yaml", "markdown"]
+      slideNumberFormat: "" 
       highlightLines: true
       countIncrementalSlides: false
+      ratio: "16:9"
+    includes:
+      in_header: header.html  
 ---
-
-
 
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
@@ -198,7 +202,13 @@ knitr::include_graphics('images/python_bettor.png')
 ---
 ### Results
 
-![](images/bettor_trials.svg)
+
+```{r fig.retina=2, echo=FALSE, fig.align='center', out.height='10%', out.width='60%'}
+knitr::include_graphics('images/bettor_trials.svg')
+```
+
+
+
  
 ---
 ### Simulation Takeaways
@@ -2007,4 +2017,26 @@ mean(mia_samples > hou_samples) %>% p_to_ml()
 
 ```
 
+---
 
+### Reading List
+
+*updated 2/11/2020
+
+#### Books on Sports Betting
+
++ [Sharp Sports Betting - Stanford Wong](https://www.amazon.com/Sharp-Sports-Betting-Stanford-Wong/dp/0935926240)
++ [Weighing the Odds in Sports Betting - King Yao](https://www.amazon.com/Weighing-Odds-Sports-Betting-King/dp/0935926305)
++ [Conquering Risk: Attacking Vegas and Wall Street - Elihu Feustel](https://www.amazon.com/Conquering-Risk-Attacking-Vegas-Street/dp/1450723004)
++ [Sharper: A Guide to Modern Sports Betting - True Pokerjoe](https://www.amazon.com/Sharper-Guide-Modern-Sports-Betting/dp/1520109326)
++ [Fixed Odds Sports Betting: Statistical Forecasting and Risk Management - Joseph Buchdahl](https://www.amazon.com/Fixed-Odds-Sports-Betting-Statistical/dp/1843440199)
++ [Logic Sports Betting - Ed Miller](https://www.amazon.com/Logic-Sports-Betting-Ed-Miller-ebook/dp/B07RG6H8C2)
+
+#### Books About Gambling/Gamblers
+
++ [Gambling Wizards: Conversations with the World's Greatest Gamblers - Richard Munchkin](https://www.amazon.com/Gambling-Wizards-Conversations-Greatest-Gamblers/dp/0929712056)
++ [A Man for All Markets: From Las Vegas to Wall Street, How I Beat the Dealer and the Market - Edward Thorpe](https://www.amazon.com/Man-All-Markets-Street-Dealer/dp/1400067960)
++ [Fortune's Formula: The Untold Story of the Scientific Betting System That Beat the Casinos and Wall Street - William Poundstone](https://www.amazon.com/Fortunes-Formula-Scientific-Betting-Casinos/dp/0809045990)
++ [The Perfect Bet: How Science and Math Are Taking the Luck Out of Gambling - Adam Kucharski](https://www.amazon.com/gp/product/1541697235/ref=dbs_a_def_rwt_bibl_vppi_i0)
++ [Calculated Bets - Steven Skiena](https://www.amazon.com/Calculated-Bets-Computers-Gambling-Mathematical/dp/0521009626/ref=sr_1_2?crid=178BI5W4GZ2IW&keywords=steve+skiena&qid=1553222084&s=books&sprefix=Steve+ski%2Cstripbooks%2C161&sr=1-2-spell)
++ [Trading Bases -  Joe Peta](https://www.amazon.com/Trading-Bases-Fortune-Betting-Baseball/dp/0451415175/ref=pd_sim_14_2/143-4648007-9270519?_encoding=UTF8&pd_rd_i=0451415175&pd_rd_r=173aabed-4c4b-11e9-84b8-e71b985bd75f&pd_rd_w=70Npr&pd_rd_wg=78oV7&pf_rd_p=90485860-83e9-4fd9-b838-b28a9b7fda30&pf_rd_r=4QKTJCDBJ8H61JJBBN4Q&psc=1&refRID=4QKTJCDBJ8H61JJBBN4Q)

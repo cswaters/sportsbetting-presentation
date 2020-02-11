@@ -4,10 +4,11 @@
     <title>Sharps and Squares</title>
     <meta charset="utf-8" />
     <meta name="author" content="Cory Waters" />
-    <meta name="date" content="2020-02-11" />
+    <meta name="date" content="2019-03-21" />
     <link href="libs/remark-css/default.css" rel="stylesheet" />
-    <link rel="stylesheet" href="csw_css.css" type="text/css" />
-    <link rel="stylesheet" href="csw_fonts.css" type="text/css" />
+    <script src="https://use.fontawesome.com/5235085b15.js"></script>
+    <link rel="stylesheet" href="css/csw_css.css" type="text/css" />
+    <link rel="stylesheet" href="css/csw_fonts.css" type="text/css" />
   </head>
   <body>
     <textarea id="source">
@@ -16,11 +17,9 @@ class: center, middle, inverse, title-slide
 # Sharps and Squares
 ## Sports Betting 101
 ### Cory Waters
-### 2020-02-11
+### 2019-03-21
 
 ---
-
-
 
 
 
@@ -198,7 +197,11 @@ class: center
 ---
 ### Results
 
-![](images/bettor_trials.svg)
+
+&lt;img src="images/bettor_trials.svg" width="60%" height="10%" style="display: block; margin: auto;" /&gt;
+
+
+
  
 ---
 ### Simulation Takeaways
@@ -565,7 +568,7 @@ This is bad for the book but good for the player. Most old-time US bookmakers ca
 class: center
 ### Juice on 'Dime' line
 
-&lt;img src="presentation_files/figure-html/unnamed-chunk-3-1.svg" width="500" height="500" /&gt;
+&lt;img src="index_files/figure-html/unnamed-chunk-4-1.svg" width="500" height="500" /&gt;
 ---
 
 ### Tools - Don Best
@@ -1552,7 +1555,7 @@ ggplot(ncaa_ps_17, aes(s_diff)) +
   geom_histogram(binwidth = 2, fill='#ddc5a2', color='white') 
 ```
 
-![](presentation_files/figure-html/unnamed-chunk-30-1.svg)&lt;!-- --&gt;
+![](index_files/figure-html/unnamed-chunk-31-1.svg)&lt;!-- --&gt;
 
 ---
 ### Simulate Game
@@ -1575,7 +1578,7 @@ paste('Pct of games home team wins', scales::percent(mean(sims &gt; 0)))
 ```
 
 ```
-## [1] "Pct of games home team wins 69%"
+## [1] "Pct of games home team wins 68%"
 ```
 
 ```r
@@ -1583,7 +1586,7 @@ paste('Median mov', median(sims) %&gt;% round()) # should be spread
 ```
 
 ```
-## [1] "Median mov 5"
+## [1] "Median mov 6"
 ```
 
 ---
@@ -1644,7 +1647,7 @@ class: inverse, center
 
 The answer... it depends. Buying off what number? The question you need to answer is how often does my push turn into a win.
 
-![](presentation_files/figure-html/unnamed-chunk-34-1.svg)&lt;!-- --&gt;
+![](index_files/figure-html/unnamed-chunk-35-1.svg)&lt;!-- --&gt;
 
 ---
 ### Push Charts
@@ -2260,7 +2263,7 @@ nba_odds %&gt;%
   labs(fill = 'games', x = 'opening', y = 'closing')
 ```
 
-![](presentation_files/figure-html/unnamed-chunk-49-1.svg)&lt;!-- --&gt;
+![](index_files/figure-html/unnamed-chunk-50-1.svg)&lt;!-- --&gt;
 
 ---
 
@@ -2276,7 +2279,7 @@ nba_odds %&gt;%
   coord_cartesian(xlim = c(170, 245), ylim = c(170, 245))
 ```
 
-![](presentation_files/figure-html/unnamed-chunk-50-1.svg)&lt;!-- --&gt;
+![](index_files/figure-html/unnamed-chunk-51-1.svg)&lt;!-- --&gt;
 
 ---
 
@@ -2294,7 +2297,7 @@ filter(nba_odds, openspr %in% common_spreads) %&gt;%
   facet_wrap(vars(openspr))
 ```
 
-![](presentation_files/figure-html/unnamed-chunk-51-1.svg)&lt;!-- --&gt;
+![](index_files/figure-html/unnamed-chunk-52-1.svg)&lt;!-- --&gt;
 
 
 ---
@@ -2313,7 +2316,7 @@ filter(nba_odds, opentot %in% common_totals) %&gt;%
   facet_wrap(vars(opentot))
 ```
 
-![](presentation_files/figure-html/unnamed-chunk-52-1.svg)&lt;!-- --&gt;
+![](index_files/figure-html/unnamed-chunk-53-1.svg)&lt;!-- --&gt;
 
 
 ---
@@ -2644,7 +2647,7 @@ paste('Our EV is', ev,
 ```
 
 ```
-## [1] "Our EV is 30.134 and our ROR is 25%"
+## [1] "Our EV is 28.978 and our ROR is 24%"
 ```
 
 ### Not So Easy
@@ -2707,7 +2710,7 @@ pass_summary &lt;- nfl_pass %&gt;%
 
 ### Plot Confidence Intervals
 
-![](presentation_files/figure-html/unnamed-chunk-62-1.svg)&lt;!-- --&gt;
+![](index_files/figure-html/unnamed-chunk-63-1.svg)&lt;!-- --&gt;
 
 ---
 class: inverse, center
@@ -2778,15 +2781,42 @@ mean(mia_samples &gt; hou_samples) %&gt;% p_to_ml()
 ```
 
 ```
-## [1] 1.776235
+## [1] 1.810568
 ```
+
+---
+
+### Reading List
+
+*updated 2/11/2020
+
+#### Books on Sports Betting
+
++ [Sharp Sports Betting - Stanford Wong](https://www.amazon.com/Sharp-Sports-Betting-Stanford-Wong/dp/0935926240)
++ [Weighing the Odds in Sports Betting - King Yao](https://www.amazon.com/Weighing-Odds-Sports-Betting-King/dp/0935926305)
++ [Conquering Risk: Attacking Vegas and Wall Street - Elihu Feustel](https://www.amazon.com/Conquering-Risk-Attacking-Vegas-Street/dp/1450723004)
++ [Sharper: A Guide to Modern Sports Betting - True Pokerjoe](https://www.amazon.com/Sharper-Guide-Modern-Sports-Betting/dp/1520109326)
++ [Fixed Odds Sports Betting: Statistical Forecasting and Risk Management - Joseph Buchdahl](https://www.amazon.com/Fixed-Odds-Sports-Betting-Statistical/dp/1843440199)
++ [Logic Sports Betting - Ed Miller](https://www.amazon.com/Logic-Sports-Betting-Ed-Miller-ebook/dp/B07RG6H8C2)
+
+#### Books About Gambling/Gamblers
+
++ [Gambling Wizards: Conversations with the World's Greatest Gamblers - Richard Munchkin](https://www.amazon.com/Gambling-Wizards-Conversations-Greatest-Gamblers/dp/0929712056)
++ [A Man for All Markets: From Las Vegas to Wall Street, How I Beat the Dealer and the Market - Edward Thorpe](https://www.amazon.com/Man-All-Markets-Street-Dealer/dp/1400067960)
++ [Fortune's Formula: The Untold Story of the Scientific Betting System That Beat the Casinos and Wall Street - William Poundstone](https://www.amazon.com/Fortunes-Formula-Scientific-Betting-Casinos/dp/0809045990)
++ [The Perfect Bet: How Science and Math Are Taking the Luck Out of Gambling - Adam Kucharski](https://www.amazon.com/gp/product/1541697235/ref=dbs_a_def_rwt_bibl_vppi_i0)
++ [Calculated Bets - Steven Skiena](https://www.amazon.com/Calculated-Bets-Computers-Gambling-Mathematical/dp/0521009626/ref=sr_1_2?crid=178BI5W4GZ2IW&amp;keywords=steve+skiena&amp;qid=1553222084&amp;s=books&amp;sprefix=Steve+ski%2Cstripbooks%2C161&amp;sr=1-2-spell)
++ [Trading Bases -  Joe Peta](https://www.amazon.com/Trading-Bases-Fortune-Betting-Baseball/dp/0451415175/ref=pd_sim_14_2/143-4648007-9270519?_encoding=UTF8&amp;pd_rd_i=0451415175&amp;pd_rd_r=173aabed-4c4b-11e9-84b8-e71b985bd75f&amp;pd_rd_w=70Npr&amp;pd_rd_wg=78oV7&amp;pf_rd_p=90485860-83e9-4fd9-b838-b28a9b7fda30&amp;pf_rd_r=4QKTJCDBJ8H61JJBBN4Q&amp;psc=1&amp;refRID=4QKTJCDBJ8H61JJBBN4Q)
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
 <script>var slideshow = remark.create({
 "highlightStyle": "github",
+"highlightLanguage": ["r", "yaml", "markdown"],
+"slideNumberFormat": "",
 "highlightLines": true,
-"countIncrementalSlides": false
+"countIncrementalSlides": false,
+"ratio": "16:9"
 });
 if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   window.dispatchEvent(new Event('resize'));
