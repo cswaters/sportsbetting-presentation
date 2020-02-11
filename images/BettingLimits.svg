@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1020px" height="788px" viewBox="0 0 1020 788" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>BettingLimits</title>
+    <desc>Created with Sketch.</desc>
+    <g id="BettingLimits" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2">
+            <g id="Group" transform="translate(220.000000, 0.465116)" stroke="#523634" stroke-linecap="square" stroke-width="5">
+                <path d="M0.520969856,662.436421 L794.47903,662.436421" id="Line"></path>
+                <path d="M0.520969856,0.521193093 L0.520969856,662.436421" id="Line-2"></path>
+            </g>
+            <text id="Betting-Limits" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="20" font-weight="500" letter-spacing="-1.027083" fill="#000000">
+                <tspan x="2.769581" y="340.465116">Betting Limits</tspan>
+            </text>
+            <text id="Time-Before-Event" font-family="IBMPlexSans-SemiBold, IBM Plex Sans" font-size="20" font-weight="500" letter-spacing="-1.027083" fill="#000000">
+                <tspan x="504.870206" y="781.465116">Time Before Event</tspan>
+            </text>
+            <text id="Days" font-family="IBMPlexSans-Light, IBM Plex Sans" font-size="20" font-weight="300" letter-spacing="-1.027083" fill="#000000">
+                <tspan x="221.154166" y="708.465116">Days</tspan>
+            </text>
+            <text id="$" font-family="IBMPlexSans-Light, IBM Plex Sans" font-size="20" font-weight="300" letter-spacing="-1.027083" fill="#000000">
+                <tspan x="164.233542" y="639.465116">$</tspan>
+            </text>
+            <text id="$$" font-family="IBMPlexSans-Light, IBM Plex Sans" font-size="20" font-weight="300" letter-spacing="-1.027083" fill="#000000">
+                <tspan x="158.467083" y="340.465116">$$</tspan>
+            </text>
+            <text id="$$$" font-family="IBMPlexSans-Light, IBM Plex Sans" font-size="20" font-weight="300" letter-spacing="-1.027083" fill="#000000">
+                <tspan x="160.700625" y="28.4651163">$$$</tspan>
+            </text>
+            <text id="Day" font-family="IBMPlexSans-Light, IBM Plex Sans" font-size="20" font-weight="300" letter-spacing="-1.027083" fill="#000000">
+                <tspan x="443.890625" y="708.465116">Day</tspan>
+            </text>
+            <text id="Hours" font-family="IBMPlexSans-Light, IBM Plex Sans" font-size="20" font-weight="300" letter-spacing="-1.027083" fill="#000000">
+                <tspan x="692.587707" y="708.465116">Hours</tspan>
+            </text>
+            <text id="Game-Time" font-family="IBMPlexSans-Light, IBM Plex Sans" font-size="20" font-weight="300" letter-spacing="-1.027083" fill="#000000">
+                <tspan x="925.661874" y="708.465116">Game Time</tspan>
+            </text>
+            <path d="M220,664.465116 C416.050248,640.45438 547.550248,615.976842 614.5,591.032504 C747.557052,541.45771 832.146696,461.459942 868.814399,404.065782 C926.48679,313.794013 973.215324,191.927124 1009,38.4651163" id="Line-3" stroke="#523634" stroke-width="3" stroke-linecap="round" stroke-linejoin="bevel"></path>
+        </g>
+    </g>
+</svg>

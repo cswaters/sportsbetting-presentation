@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1180px" height="860px" viewBox="0 0 1180 860" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>risk_mngmt</title>
+    <desc>Created with Sketch.</desc>
+    <g id="risk_mngmt" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <text id="Adjust-Spread/Total" font-family="OpenSans-Semibold, Open Sans" font-size="29" font-weight="500" letter-spacing="-1.027083" fill="#000000">
+            <tspan x="295.236537" y="158">Adjust Spread/Total</tspan>
+        </text>
+        <text id="Change-Rules" font-family="OpenSans-Semibold, Open Sans" font-size="29" font-weight="500" letter-spacing="-1.027083" fill="#000000">
+            <tspan x="935.539939" y="158">Change Rules</tspan>
+        </text>
+        <g id="Group-5" transform="translate(670.000000, 644.000000)">
+            <text id="Stop-Offering" font-family="OpenSans-Semibold, Open Sans" font-size="29" font-weight="500" letter-spacing="-1.027083" fill="#000000">
+                <tspan x="217.47451" y="31">Stop Offering</tspan>
+            </text>
+            <text id="Example:-No-longer-t" font-family="OpenSans-Semibold, Open Sans" font-size="20" font-weight="500" letter-spacing="-1.027083" fill="#000000">
+                <tspan x="156.266205" y="88">Example: No longer take action on</tspan>
+                <tspan x="228.873891" y="115">NBA player props</tspan>
+            </text>
+            <g id="Group-3" transform="translate(0.000000, 16.000000)">
+                <path d="M20.8435629,-5.22354036e-16 L74.1564371,5.22354036e-16 C79.5024211,-4.59687296e-16 82.858278,0.8354305 85.7916113,2.40419433 C88.7249447,3.97295817 91.0270418,6.27505533 92.5958057,9.20838867 C94.1645695,12.141722 95,15.4975789 95,20.8435629 L95,24.1564371 C95,29.5024211 94.1645695,32.858278 92.5958057,35.7916113 C91.0270418,38.7249447 88.7249447,41.0270418 85.7916113,42.5958057 C82.858278,44.1645695 79.5024211,45 74.1564371,45 L20.8435629,45 C15.4975789,45 12.141722,44.1645695 9.20838867,42.5958057 C6.27505533,41.0270418 3.97295817,38.7249447 2.40419433,35.7916113 C0.8354305,32.858278 3.85917188e-15,29.5024211 3.20447765e-15,24.1564371 L3.48236024e-16,20.8435629 C-3.06458197e-16,15.4975789 0.8354305,12.141722 2.40419433,9.20838867 C3.97295817,6.27505533 6.27505533,3.97295817 9.20838867,2.40419433 C12.141722,0.8354305 15.4975789,4.59687296e-16 20.8435629,-5.22354036e-16 Z" id="shape" fill="#523634"></path>
+                <path d="M77,2 L77,2 C85.836556,2 93,9.163444 93,18 L93,26 C93,34.836556 85.836556,42 77,42 L77,42 C68.163444,42 61,34.836556 61,26 L61,18 C61,9.163444 68.163444,2 77,2 Z" id="shape" stroke="#523634" stroke-width="4" fill="#FFFFFF"></path>
+            </g>
+        </g>
+        <g id="Group-6" transform="translate(54.000000, 360.000000)">
+            <text id="Adjust-Moneyline" font-family="OpenSans-Semibold, Open Sans" font-size="29" font-weight="500" letter-spacing="-1.027083" fill="#000000">
+                <tspan x="224.399525" y="72">Adjust Moneyline</tspan>
+            </text>
+            <text id="Example:-Move-a--110" font-family="OpenSans-Semibold, Open Sans" font-size="20" font-weight="500" letter-spacing="-1.027083" fill="#000000">
+                <tspan x="227.053836" y="116">Example: Move a -110  to -115</tspan>
+            </text>
+            <path d="M84,0 C130.391919,-8.8817842e-15 168,37.608081 168,84 C168,130.391919 130.391919,168 84,168 C37.608081,168 5.32907052e-15,130.391919 0,84 C-5.32907052e-15,37.608081 37.608081,8.8817842e-15 84,0 Z" id="path" stroke="#F2F2F2" stroke-width="24"></path>
+            <path d="M84,0 C130.391919,0 168,37.608081 168,84 C168,108.38025 157.613414,130.334583 141.023796,145.679445 C133.26973,152.851707 124.160504,158.580016 114.123313,162.437179" id="path" stroke="#523634" stroke-width="24"></path>
+        </g>
+        <g id="Group-4" transform="translate(648.000000, 395.000000)">
+            <text id="Adjust-Overround" font-family="OpenSans-Semibold, Open Sans" font-size="29" font-weight="500" letter-spacing="-1.027083" fill="#000000">
+                <tspan x="239.284291" y="31">Adjust Overround</tspan>
+            </text>
+            <text id="Example:-Change-base" font-family="OpenSans-Semibold, Open Sans" font-size="20" font-weight="500" letter-spacing="-1.027083" fill="#000000">
+                <tspan x="224.938472" y="65">Example: Change base odds -110  </tspan>
+                <tspan x="276.923043" y="92">on both sides to -120</tspan>
+            </text>
+            <g id="Group" transform="translate(0.000000, 27.000000)">
+                <rect id="box" fill="#F2F2F2" x="0" y="0" width="192" height="24"></rect>
+                <rect id="box" fill="#523634" x="96" y="0" width="96" height="24"></rect>
+            </g>
+        </g>
+        <g id="Group-4-Copy" transform="translate(36.000000, 653.000000)">
+            <text id="Adjust-Limits" font-family="OpenSans-Semibold, Open Sans" font-size="29" font-weight="500" letter-spacing="-1.027083" fill="#000000">
+                <tspan x="271.218276" y="31">Adjust Limits</tspan>
+            </text>
+            <text id="Example:-Change-Max" font-family="OpenSans-Semibold, Open Sans" font-size="20" font-weight="500" letter-spacing="-1.027083" fill="#000000">
+                <tspan x="230.483654" y="65">Example: Change Max bet from </tspan>
+                <tspan x="316.274933" y="92">$1K to $300</tspan>
+            </text>
+            <g id="Group" transform="translate(0.000000, 27.000000)">
+                <rect id="box" fill="#F2F2F2" x="0" y="0" width="192" height="24"></rect>
+                <rect id="box" fill="#523634" x="47" y="0" width="145" height="24"></rect>
+            </g>
+        </g>
+        <text id="Example:-Move-a--6.5" font-family="OpenSans-Semibold, Open Sans" font-size="20" font-weight="500" letter-spacing="-1.027083" fill="#000000">
+            <tspan x="295.480073" y="202">Example: Move a -6.5 spread to -7</tspan>
+        </text>
+        <text id="Example:-Ties-Push-t" font-family="OpenSans-Semibold, Open Sans" font-size="20" font-weight="500" letter-spacing="-1.027083" fill="#000000">
+            <tspan x="888.38463" y="202">Example: Ties Push to Ties Lose</tspan>
+        </text>
+        <path d="M152,82 C198.391919,82 236,119.608081 236,166 C236,212.391919 198.391919,250 152,250 C105.608081,250 68,212.391919 68,166 C68,119.608081 105.608081,82 152,82 Z" id="path" stroke="#F2F2F2" stroke-width="24"></path>
+        <path d="M152,82 L152,82 C198.391919,82 236,119.608081 236,166 L236,166 C236,212.391919 198.391919,250 152,250 L152,250 C105.608081,250 68,212.391919 68,166 L68,166" id="path" stroke="#523634" stroke-width="24"></path>
+        <g id="Group-2" transform="translate(670.000000, 127.000000)">
+            <path d="M5.1277704,1 L186.87223,1 C188.655267,1 189.30184,1.18565122 189.953691,1.53426541 C190.605543,1.88287959 191.11712,2.39445674 191.465735,3.04630859 C191.814349,3.69816044 192,4.34473292 192,6.1277704 L192,31.8722296 C192,33.6552671 191.814349,34.3018396 191.465735,34.9536914 C191.11712,35.6055433 190.605543,36.1171204 189.953691,36.4657346 C189.30184,36.8143488 188.655267,37 186.87223,37 L5.1277704,37 C3.34473292,37 2.69816044,36.8143488 2.04630859,36.4657346 C1.39445674,36.1171204 0.882879593,35.6055433 0.534265408,34.9536914 C0.185651222,34.3018396 8.02470732e-17,33.6552671 -1.38112041e-16,31.8722296 L1.38112041e-16,6.1277704 C-8.02470732e-17,4.34473292 0.185651222,3.69816044 0.534265408,3.04630859 C0.882879593,2.39445674 1.39445674,1.88287959 2.04630859,1.53426541 C2.69816044,1.18565122 3.34473292,1 5.1277704,1 Z" id="box" fill="#523634"></path>
+            <g id="icon-down" transform="translate(154.000000, 7.000000)">
+                <rect id="box" x="0" y="0" width="24" height="24"></rect>
+                <polyline id="Shape" stroke="#FFFFFF" stroke-width="2" points="18 10 12 16 6 10"></polyline>
+            </g>
+            <text id="rule-set-1" font-family="IBMPlexSansCond-SemiBold, IBM Plex Sans Condensed" font-size="26" font-style="condensed" font-weight="500" letter-spacing="-1.33520806" fill="#FFFFFF">
+                <tspan x="33.2810403" y="27">rule set 1</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
